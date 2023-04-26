@@ -76,11 +76,11 @@ plt.show()
 
 ### INPUT IMAGE AND GRAYSCALE IMAGE
 
-![output](op1.png)
+https://github.com/Bhavishya203/Edge-Linking-using-Hough-Transform/blob/main/dip%208-1.jpg
 
 ### CANNY EDGE DETECTOR OUTPUT
 
-![output](op2.png)
+
 
 ### DISPLAY THE RESULT OF HOUGH TRANSFORM
 
