@@ -27,8 +27,8 @@ Display the image and end the program.
 ## PROGRAM:
 
 ```
-NAME  : Paarkavy B
-REG.NO: 212221230072 
+NAME  : Bhavishya Reddy Mitta
+REG.NO: 212221230061 
 ```
 
 ### READ IMAGE AND CONVERT IT TO GRAYSCALE IMAGE
@@ -84,7 +84,7 @@ https://github.com/Bhavishya203/Edge-Linking-using-Hough-Transform/blob/main/dip
 
 ### DISPLAY THE RESULT OF HOUGH TRANSFORM
 
-![output](op3.png)
+https://github.com/Bhavishya203/Edge-Linking-using-Hough-Transform/blob/main/dip%208-3.jpg
 
 ## RESULT:
 Thus the program is written with python and OpenCV to detect lines using Hough transform. 
