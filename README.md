@@ -80,7 +80,7 @@ https://github.com/Bhavishya203/Edge-Linking-using-Hough-Transform/blob/main/dip
 
 ### CANNY EDGE DETECTOR OUTPUT
 
-
+https://github.com/Bhavishya203/Edge-Linking-using-Hough-Transform/blob/main/dip%208-2.jpg
 
 ### DISPLAY THE RESULT OF HOUGH TRANSFORM
 
