@@ -31,7 +31,7 @@ NAME  : Paarkavy B
 REG.NO: 212221230072 
 ```
 
-### Read image and convert it to grayscale image
+### READ IMAGE AND CONVERT IT TO GRAYSCALE IMAGE
 ```
 import cv2
 import numpy as np
@@ -43,7 +43,7 @@ plt.imshow(img)
 plt.show()
 ```
 
-### Find the edges in the image using canny detector and display
+### FIND THE EDGES IN THE IMAGE USING CANNY DETECTOR AND DISPLAY
 ```
 edge = cv2.Canny(img,100,200)
 plt.imshow(edge,cmap='gray')
@@ -53,19 +53,19 @@ plt.yticks([])
 plt.show()
 ```
 
-### Detect points that form a line using HoughLinesP
+### DETECT POINTS THAT FORM A LINE UNING HOUGHLINESP
 ```
 lines=cv2.HoughLinesP(edge,1,np.pi/180, threshold=80, minLineLength=50,maxLineGap=250)
 ```
 
-### Draw lines on the image
+### DRAW LINES ON THE IMAGE
 ```
 for line in lines:
     x1,y1,x2,y2 = line[0]
     cv2.line(edge,(x1,y1),(x2,y2),(255,0,0),3)
 ```
 
-### Display the result
+### DISPLAY THE RESULT
 ```
 plt.imshow(edge)
 plt.axis('off')
@@ -74,15 +74,15 @@ plt.show()
 
 ## OUTPUT:
 
-### Input image and grayscale image
+### INPUT IMAGE AND GRAYSCALE IMAGE
 
 ![output](op1.png)
 
-### Canny Edge detector output
+### CANNY EDGE DETECTOR OUTPUT
 
 ![output](op2.png)
 
-### Display the result of Hough transform
+### DISPLAY THE RESULT OF HOUGH TRANSFORM
 
 ![output](op3.png)
 
